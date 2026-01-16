@@ -5,7 +5,9 @@ def confusar(argumento):
     argumento = argumento.replace("s", "$").replace("S", "$")
     argumento = argumento.replace("a", "@").replace("A", "@")
     return argumento
+    
 print("=======<GERADOR DE SIGLAS>=======")
+
 def continuar():
     frase = input("Digite uma frase: ")
     while frase == '':
@@ -31,5 +33,8 @@ quer = input("Quer fazer denovo? S/N : ")
 if quer == 'n' or quer == 'N':
     exit()
 else:
+    if quer != "S" or quer != "s":
+        print("Você nao escreveu N ou S, escreveu:",quer,"-> Continuando...")
+    print("Continuando..")
     continuar()
 continuar()
