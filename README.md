@@ -1,3 +1,3 @@
 # TrabalhosPSI
 Repositorio para guardar trabalhos de PSI
-Luis Lobão
+Luis Felipe Martins Lobão
