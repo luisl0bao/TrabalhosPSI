@@ -18,7 +18,7 @@ def continuar():
     password = ""
 
     for palavra2 in frase.split():
-        password = password + palavra2[:2].upper() #Vai pegar 2 por 2 letras por cada palavra
+        password = password + palavra2[:2].upper() #Primeiras 2 letras de cada palavra
 
     password = confusar(password.upper())
     print(sigla, "=", "Sigla")
